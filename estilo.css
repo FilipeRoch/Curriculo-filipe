@@ -1,0 +1,334 @@
+/* estilos para o corpo do documento */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+    }
+    
+ /* estilos para o cabeçalho */
+header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+  }
+  
+ h1 {
+    background-color: #008080;
+    color: white;
+    font-size: 2em
+ } 
+ header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-left: 20px;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #A9A9A9;
+  }
+ /* estilos para a seção de dados pessoais */
+#dados-pessoais {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #dados-pessoais h2 {
+    margin-top: 0;
+    color: #008080;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  #dados-pessoais ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #dados-pessoais li {
+    flex-basis: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  #dados-pessoais li p {
+    margin: 0;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  #dados-pessoais li strong {
+    font-weight: bold;
+    color: #008080;
+  }
+   
+  .dados-pessoais {
+    text-align: center;
+  }
+  
+/* estilos para a seção de objetivo */
+#objetivo {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #objetivo h2 {
+    color: #008080;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  #objetivo p {
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  #objetivo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #objetivo li {
+    flex-basis: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+/* estilos para a seção de instituição de ensino */
+#instituicao {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #instituicao h2 {
+    color: #008080;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  #instituicao h3 {
+    color: #008080;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  #instituicao p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+/* estilos para a seção de experiências */
+#experiencia {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .experiencia-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .experiencia-item {
+    flex-basis: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .experiencia-item h3 {
+    margin-top: 0;
+  }
+  
+  .experiencia-item p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  
+/* estilos para a seção de cursos profissionalizantes */
+#educacao {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #educacao ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #educacao li {
+    flex-basis: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+          
+    
+    /* estilos para o conteúdo principal */
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    h2 {
+    margin-top: 40px;
+    color: #008080;
+    font-size: 2em;
+    font-weight: bold;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    margin-bottom: 10px;
+    }
+    
+    p {
+    line-height: 1.5;
+    }
+   
+  
+    
+    /* estilos para a seção de habilidades */
+    #habilidades {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+    }
+    
+    #habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    #habilidades li {
+    flex-basis: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #008080;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    }
+    
+    /* estilos para a seção de experiência */
+    #experiencia1 {
+    background-color: #F5F5F5;
+    padding: 40px;
+    text-align: center;
+    }
+    
+    .timeline-item {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    margin-bottom: 50px;
+    }
+    
+    .timeline-item:before,
+    .timeline-item:after {
+    content: "";
+    display: table;
+    }
+    
+    .timeline-item:after {
+    clear: both;
+    }
+    
+    .timeline-item-content {
+    position: relative;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    text-align: left;
+    }
+    
+    .timeline-item-content h3 {
+    margin-top: 0;
+    color: #008080;
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+    
+    .timeline-item-content p {
+    margin-bottom: 4px;
+    }
+    
+    .date {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    }
+    
+    footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px; /* altura do footer + margem para espaçamento */
+    font-size: 0.8em;
+    }
